@@ -49,7 +49,7 @@ public class Main {
         System.out.println("Задача 9");
         g = 0;
         for (int m = 1; m <= 12; m++ ){
-            g = g + h + (g/100)*12/12;
+            g = (int) (g + h + (g*0.01));
             System.out.println("Месяц " + m + ", сумма накоплений равна " + g + " рублей");
         }
 //Задача 10
